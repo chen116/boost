@@ -13,14 +13,14 @@ return (
 
   <>
     <Head>
-      <title>Create Next App</title>
+      <title>Create taisol Next App</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
 
     <Navbar bg="light" expand="lg">
       <Container className="container-fluid">
-        <Navbar.Brand href="#home">Resact-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">taisol Resact-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
