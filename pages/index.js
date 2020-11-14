@@ -26,11 +26,11 @@ return (
         <Col className="my-auto">
           <h1 className="display-2 font-weight-bolder">
             <strong>
-              Next.JS + Btaiootstrap
+              Hi cat cat meow
             </strong>
           </h1>
           <p className="lead">
-            Liked this tutorial?
+            Kiss youuu
           </p>
 
           <a className="btn btn-primary btn-lg" href="https://twitter.com/mike_alche">
