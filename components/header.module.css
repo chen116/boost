@@ -1,0 +1,39 @@
+.headerStyle {
+    width: "80%";
+    height: "100px";
+    background-image: linear-gradient(rgb(33, 18, 99), rgb(10, 125, 192));
+  }
+
+  .navBarTop {
+    right:30%;
+    position: absolute;
+    bottom:0;
+    /* margin: 2px; */
+
+}
+
+.navtxt {
+    color: rgb(99, 189, 57);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navtxt {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+
+  .navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }

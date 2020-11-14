@@ -4,5 +4,20 @@ $primary: rgb(0, 19, 223);
 
 $body-color:  #333;
 $body-bg: #f2f2f2;
+// body {
+//     font-family: 'Helvetica Neue', 'Helvetica',
+//       'Arial', sans-serif;
+//     padding: 20px 20px 60px;
+//     max-width: 680px;
+//     margin: 0 auto;
+//   }
+
+
+// @media all and (min-width: 992px) {
+// 	.navbar .nav-item .dropdown-menu{ display: none; }
+// 	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+// 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+// 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+// }
 
 @import './bootstrap.scss';
