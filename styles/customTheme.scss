@@ -1,5 +1,5 @@
 $enable-shadows: true;
-$primary: rgb(0, 19, 223);
+// $primary: rgb(0, 19, 223);
 
 
 $body-color:  #333;
@@ -13,11 +13,11 @@ $body-bg: #f2f2f2;
 //   }
 
 
-// @media all and (min-width: 992px) {
-// 	.navbar .nav-item .dropdown-menu{ display: none; }
-// 	.navbar .nav-item:hover .nav-link{ color: #fff;  }
-// 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-// 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-// }
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
 
 @import './bootstrap.scss';
