@@ -159,19 +159,25 @@ class BootstrapNavbar extends React.Component{
       
     render(){
         return(
-            <Navbar collapseOnSelect expand="lg" variant="dark" className={styles.headerStyle} sticky="top">
+
+<>
+
+            <Navbar collapseOnSelect expand="sm" variant="dark" className={styles.headerStyle} sticky="top">
             <Container>
             <Navbar.Brand><Link href="/"><a><img src='/images/logo.png'></img></a></Link></Navbar.Brand>
              <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={this.onClick}/>
              <Navbar.Collapse id="responsive-navbar-nav" >
                  <Nav className= {`${styles.navBarTop} ml-auto`}  id="meow" >
-                     <Nav.Link href="#features">Features</Nav.Link>
-                     <Nav.Link href="#pricing">Pricing</Nav.Link>
-                     <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                         <NavDropdown.Divider />
-                         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                     {/* <Nav.Link >Home</Nav.Link> */}
+                     <NavDropdown title="About" id="collasible-nav-dropdown">
+                         <NavDropdown.Item ><Link href="/about/about-taisol"><a>About Taisol</a></Link></NavDropdown.Item>
+                         <NavDropdown.Item ><Link href="/about/global-location"><a>Global Oepration</a></Link></NavDropdown.Item>
+
+                     </NavDropdown>
+                     <NavDropdown title="News" id="collasible-nav-dropdown">
+                         <NavDropdown.Item ><Link href="/news/news"><a>News</a></Link></NavDropdown.Item>
+                         <NavDropdown.Item ><Link href="/about/global-location"><a>Global Oepration</a></Link></NavDropdown.Item>
+
                      </NavDropdown>
                  </Nav>
      
@@ -179,6 +185,10 @@ class BootstrapNavbar extends React.Component{
          </Container>
              
          </Navbar>
+         <Row className="">
+          <img className="rounded " src="/images/banner.jpg" alt="" />
+        </Row>
+    </>
         )  
     }
 }

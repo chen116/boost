@@ -1,14 +1,13 @@
-
-const navBarStyle = {
-    backgroundColor: "red",
-    color: "white",
-    width: "100%",
-    height: "60px"
-  };
+import styles from './footer.module.css'
+import { Container, Row, Col, Navbar, Dropdown,Nav,NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
   
   const footer = () => (
-    <div className="Footer" style={navBarStyle}>
-      Footer
+    <div className={styles.footerStyle}>
+     
+
+     <Navbar  variant="dark" >
+    <Navbar.Brand >Copyright ©2015 TaiSol Electronics Co., Ltd. All rights reserved</Navbar.Brand>
+  </Navbar>
     </div>
   );
   
