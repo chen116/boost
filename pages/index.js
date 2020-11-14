@@ -4,19 +4,19 @@ import Head from 'next/head'
 import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
 
 
-import Layout, { siteTitle } from '../components/layout'
+// import Layout, { siteTitle } from '../components/layout'
 
-
+import Layout from "../components/layout";
 
 export default function Home () {
 
 return (
-<div>
+<Layout>
 
-<Head>
-      <title>Create taisol Next App</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+ <Head>
+       <title>Taisol</title>
+       <link rel="icon" href="/favicon.ico" />
+     </Head> 
 
 
 
@@ -26,7 +26,7 @@ return (
         <Col className="my-auto">
           <h1 className="display-2 font-weight-bolder">
             <strong>
-              Next.JS + Bootstrap
+              Next.JS + Btaiootstrap
             </strong>
           </h1>
           <p className="lead">
@@ -43,7 +43,7 @@ return (
       </Row>
     </Container>
 
-</div>
+</Layout>
 )
 
 

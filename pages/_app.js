@@ -5,9 +5,9 @@ import Layout, { siteTitle } from '../components/layout'
 function MyApp({ Component, pageProps }) {
   return (
   
-    <Layout>
+    // <Layout>
   <Component {...pageProps} />
-  </Layout>
+  // </Layout>
 
   )
 }
