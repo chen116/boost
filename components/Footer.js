@@ -8,6 +8,8 @@ import { Container, Row, Col, Navbar, Dropdown,Nav,NavDropdown, Form, FormContro
      <Navbar  variant="dark" >
     <Navbar.Brand >Copyright ©2015 TaiSol Electronics Co., Ltd. All rights reserved</Navbar.Brand>
   </Navbar>
+
+            
     </div>
   );
   

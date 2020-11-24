@@ -57,12 +57,12 @@ const contentStyle = {
   flexDirection: "column"
 };
 
-const Layout = propss => (
-  <div className="Layout" style={layoutStyle}>
+const Layout = props => (
+  <div className="Layout" >
 
     <Header />
-    <div className="Content" style={contentStyle}>
-      {propss.children}
+    <div className="Content" >
+      {props.children}
     </div>
     <Footer />
   </div>
