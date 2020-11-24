@@ -5,7 +5,7 @@ const ExploreView = props =>
 
 (
 
-<Layout>Explore View
+<Layout>
 
 <Container className="container-fluid">
 
@@ -13,16 +13,14 @@ const ExploreView = props =>
   <Col className="my-auto">
     <h1 className="display-2 font-weight-bolder">
       <strong>
-        Next.JS + Btaiootsfffff
+        ABOUT TAISOL
       </strong>
     </h1>
     <p className="lead">
       Liked this tutorial?
     </p>
 
-    <a className="btn btn-primary btn-lg" href="https://twitter.com/mike_alche">
-      Follow me son twitter
-      </a>
+
   </Col>
   <Col className="">
     <img className="rounded " src="http://placekitten.com/500/500" alt="" />

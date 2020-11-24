@@ -20,9 +20,7 @@ const ExploreView = props =>
       Liked this tutorial?
     </p>
 
-    <a className="btn btn-primary btn-lg" href="https://twitter.com/mike_alche">
-      Follow me son twitter
-      </a>
+  
   </Col>
   <Col className="">
     <img className="rounded " src="http://placekitten.com/500/500" alt="" />
